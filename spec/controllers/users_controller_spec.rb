@@ -12,6 +12,7 @@ describe UsersController do
     it "should have the right title" do
       get 'new'
       response.should have_tag("title", /Sign up/)
+    end
   end
   
 end
